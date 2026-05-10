@@ -278,7 +278,7 @@ def widget():
             messagesDiv.scrollTop = messagesDiv.scrollHeight;
             
             // Send to server
-            fetch('https://barber-bot-j4if.onrender.com/', {
+            fetch('https://barber-bot-j4if.onrender.com/chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
