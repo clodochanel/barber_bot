@@ -331,4 +331,4 @@ def widget():
     return js_code, 200, {'Content-Type': 'application/javascript'}
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000, host='127.0.0.1')
+    app.run(debug=True, port=8080, host='0.0.0.0')
